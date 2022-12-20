@@ -1,17 +1,21 @@
 {
-    "name": "mstfsnc/nestpay",
+    "name": "enver/omnipay-nestpay",
     "type": "library",
     "description": "Omnipay için Nestpay 3D_Pay kütüphanesi",
     "keywords": [
         "omnipay",
         "nestpay"
     ],
-    "homepage": "https://github.com/mstfsnc/nestpay",
+    "homepage": "https://github.com/enverarslan/omnipay-nestpay",
     "license": "MIT",
     "authors": [
         {
             "name": "Mustafa Sancu",
             "email": "mstfsnc@gmail.com"
+        },
+        {
+            "name": "Enver Arslan",
+            "email": "enver@programmer.net"
         }
     ],
     "autoload": {
@@ -19,8 +23,10 @@
             "Omnipay\\Nestpay\\": "src/"
         }
     },
-    "require": {
-        "league/omnipay": "^3",
-        "omnipay/paypal": "^3.0"
-    }
+    "require" : {
+		"omnipay/common" : "~3.0"
+	},
+	"require-dev" : {
+		"omnipay/tests" : "~3.0"
+	}
 }

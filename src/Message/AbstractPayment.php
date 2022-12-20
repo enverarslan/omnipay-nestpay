@@ -13,9 +13,7 @@ abstract class AbstractPayment extends AbstractRequest
         'cardplus'      => 'https://sanalpos.card-plus.net/servlet/est3Dgate',
         'denizbank'     => 'https://denizbank.est.com.tr/servlet/est3Dgate',
         'finansbank'    => 'https://www.fbwebpos.com/servlet/est3Dgate',
-        'halkbank'      => 'https://sanalpos.halkbank.com.tr/servlet/est3Dgate',
-        'hsbc'          => 'https://vpos.advantage.com.tr/servlet/est3Dgate',
-        'kuveytturk'    => 'https://kuveytturk.est.com.tr/servlet/est3Dgate',              
+        'halkbank'      => 'https://sanalpos.halkbank.com.tr/servlet/est3Dgate',             
         'ziraatbank'    => 'https://sanalpos2.ziraatbank.com.tr/servlet/est3Dgate',
         
         'test'          => 'https://entegrasyon.asseco-see.com.tr/fim/est3Dgate', // test for all banks.

@@ -17,7 +17,7 @@
  * ..
  
 ## Kurulum
-    composer require mstfsnc/nestpay
+    composer require enver/omnipay-nestpay
     
 ## Kullanım
 [Wiki](https://github.com/mstfsnc/nestpay/wiki) sayfasını ziyaret edin

@@ -10,12 +10,15 @@ abstract class AbstractTransaction extends AbstractRequest
     protected $type;
 
     protected $endpoints = [
-        'isbank' => 'https://spos.isbank.com.tr/servlet/cc5ApiServer',
-        'akbank' => 'https://www.sanalakpos.com/servlet/cc5ApiServer',
-        'finansbank' => 'https://www.fbwebpos.com/servlet/cc5ApiServer',
-        'halkbank' => 'https://sanalpos.halkbank.com.tr/servlet/cc5ApiServer',
-        'anadolubank' => 'https://anadolusanalpos.est.com.tr/servlet/cc5ApiServer',
-        'test' => 'https://entegrasyon.asseco-see.com.tr/servlet/cc5ApiServer',
+        'akbank'        => 'https://www.sanalakpos.com/servlet/cc5ApiServer',
+        'anadolubank'   => 'https://anadolusanalpos.est.com.tr/servlet/cc5ApiServer',
+        'cardplus'      => 'https://sanalpos.card-plus.net/servlet/cc5ApiServer',       
+        'finansbank'    => 'https://www.fbwebpos.com/servlet/cc5ApiServer',
+        'halkbank'      => 'https://sanalpos.halkbank.com.tr/servlet/cc5ApiServer',
+        'isbank'        => 'https://spos.isbank.com.tr/servlet/cc5ApiServer', 
+        'ziraatbank'    => 'https://sanalpos2.ziraatbank.com.tr/servlet/cc5ApiServer',        
+        
+        'test' => 'https://entegrasyon.asseco-see.com.tr/servlet/cc5ApiServer', // test for all banks.
     ];
 
     public function getData()
